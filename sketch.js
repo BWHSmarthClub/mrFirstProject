@@ -11,3 +11,4 @@ function keyTyped() {
   if (key === 'a') {
     saveCanvas('myCanvas', 'jpg');
   }
+}
