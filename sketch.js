@@ -1,10 +1,10 @@
 function setup() {
   createCanvas( windowWidth , windowHeight );
-  //background( 200 , 200 , 255 );
+  background( 200 , 200 , 255 );
 }
 
 function draw() {
-  background( 200 , 200 , 255 , 10 );
+  //background( 200 , 200 , 255 , 10 );
   fill( 0 , 0 , 255 , 20 );
   
   line( 0 , 0 , mouseX , mouseY);
