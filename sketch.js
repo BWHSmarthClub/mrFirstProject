@@ -8,6 +8,6 @@ function draw() {
   fill( 0 , 0 , 255 , 20 );
   
   for( var i = 0 ; i < 10 ; i++ ) {
-    ellipse( mouseX + 10*i - 50 , mouseY + 10*i - 50 , 10 , 10 );
+    ellipse( mouseX+10*i-50 , mouseY+10*i-50 , 10 , 10 );
   }
 }
